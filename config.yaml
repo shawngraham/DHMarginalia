@@ -1,0 +1,71 @@
+# DHMarginalia Configuration
+# This is the main controller for your scrollytelling dashboard.
+
+metadata:
+  title: "Republic of Letters: A Sample Dashboard"
+  author: "DH Scholar"
+  description: "An exploration of early modern correspondence networks."
+  theme: serif  # Options: serif, sans, sepia, dark
+  # doi: "10.xxxx/example"
+  # repository_url: "https://github.com/yourname/yourproject"
+  # preferred_citation: "Author (Year). Title. URL."
+
+data:
+  csv: /data/letters.csv
+  columns:
+    date: date
+    source: source
+    target: target
+    text: body
+
+story:
+  - layout: full-width
+    text: |
+      # Republic of Letters
+
+      This dashboard explores a sample network of early modern correspondences.
+      Scroll down to see the data come alive.
+
+  - text: |
+      ## The Network
+
+      Here we can see the full correspondence network. Node size reflects
+      **betweenness centrality** — how often a person acts as a bridge
+      between others.
+    view: network
+    title: "Correspondence Network"
+
+  - text: |
+      ## Early Correspondence (before 1660)
+
+      Filtering to letters before 1660, we see a smaller, tighter network
+      emerging in the early period.
+    view: network
+    title: "Early Network (pre-1660)"
+    transform:
+      filter: "year < 1660"
+
+  - text: |
+      ## Timeline of Letters
+
+      The timeline below shows the distribution of letters across the full
+      date range. Notice the clustering around key historical periods.
+    view: timeline
+    title: "Letter Timeline"
+
+  - layout: full-width
+    text: |
+      ## Explore the Data
+
+      Use the search and filter tools below to investigate the dataset yourself.
+      You can download any filtered subset as a CSV.
+
+dashboard:
+  - view: search
+    title: "Search Letters"
+    facets:
+      - source
+      - target
+
+  - view: timeline
+    title: "Full Timeline"
