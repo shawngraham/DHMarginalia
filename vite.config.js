@@ -30,7 +30,7 @@ function copyProjectData() {
 }
 
 export default defineConfig({
-  base: '/DHMarginalia/',
+  base: './',
   build: {
     outDir: 'dist',
     assetsInlineLimit: 0,
