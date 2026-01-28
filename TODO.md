@@ -47,9 +47,9 @@
 - [x] Finalize mobile responsiveness (stacking visuals instead of side-by-side).
 
 ## Documentation
-- [ ] Write comprehensive documentation explaining how to set up to develop locally
-- [ ] Write comprehensive documentation explaining how to theme
-- [ ] Write comprehensive documentation explaining how to extend
+- [x] Write comprehensive documentation explaining how to set up to develop locally (`docs/local-development.md`)
+- [x] Write comprehensive documentation explaining how to theme (`docs/theming.md`)
+- [x] Write comprehensive documentation explaining how to extend (`docs/extending.md`)
 
 ---
 
