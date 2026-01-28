@@ -24,7 +24,7 @@ async function main() {
 
   // 1. Load config
   try {
-    config = await loadConfig('/config.yaml');
+    config = await loadConfig(import.meta.env.BASE_URL + 'config.yaml');
   } catch (err) {
     if (err.validationErrors) {
       configErrors.push(...err.validationErrors);
