@@ -46,6 +46,11 @@
 - [x] Optimize network rendering for >1,000 nodes (top-N labeling, tail grouping).
 - [x] Finalize mobile responsiveness (stacking visuals instead of side-by-side).
 
+## Documentation
+- [ ] Write comprehensive documentation explaining how to set up to develop locally
+- [ ] Write comprehensive documentation explaining how to theme
+- [ ] Write comprehensive documentation explaining how to extend
+
 ---
 
 ### First Milestone Goal
