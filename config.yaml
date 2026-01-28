@@ -11,7 +11,7 @@ metadata:
   # preferred_citation: "Author (Year). Title. URL."
 
 data:
-  csv: /data/letters.csv
+  csv: data/letters.csv
   columns:
     date: date
     source: source
