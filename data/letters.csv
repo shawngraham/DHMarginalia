@@ -1,0 +1,51 @@
+id,date,source,target,body,year
+1,1645-03-12,Descartes,Mersenne,"On the nature of light and refraction.",1645
+2,1646-07-22,Mersenne,Descartes,"Your thoughts on refraction are compelling.",1646
+3,1649-01-15,Descartes,Christina,"I am honored by your invitation to Stockholm.",1649
+4,1650-11-03,Huygens,Mersenne,"The pendulum experiments proceed well.",1650
+5,c. 1651,Mersenne,Pascal,"On the weight of air and the void.",1651
+6,1654-08-10,Pascal,Fermat,"On the problem of points and probability.",1654
+7,1655?,Fermat,Pascal,"Your solution is elegant. I propose another approach.",1655
+8,1656-02-28,Huygens,Boyle,"The air pump design shows great promise.",1656
+9,Winter 1657,Boyle,Huygens,"I have improved upon your pendulum clock.",1657
+10,1658-06-14,Pascal,Arnauld,"On the logic of Port-Royal.",1658
+11,1660-03-20,Boyle,Hooke,"Please assist with the new experiments.",1660
+12,1661-09-01,Hooke,Boyle,"The microscope reveals astonishing structures.",1661
+13,1662-04-15,Huygens,Oldenburg,"I wish to communicate my findings to the Society.",1662
+14,1663-11-30,Oldenburg,Huygens,"The Royal Society welcomes your correspondence.",1663
+15,1664-07-07,Hooke,Oldenburg,"Observations on the comet of this year.",1664
+16,1665-01-19,Oldenburg,Boyle,"Publication of the Transactions proceeds.",1665
+17,c. 1665,Newton,Barrow,"On the method of fluxions.",1665
+18,1666-05-23,Newton,Barrow,"Further developments on the calculus.",1666
+19,1667-08-14,Barrow,Newton,"Your work surpasses my own. I yield the chair.",1667
+20,1668-02-09,Oldenburg,Newton,"The Society is eager to see your optical work.",1668
+21,1669-10-11,Newton,Oldenburg,"On the composition of white light.",1669
+22,1670-03-05,Leibniz,Oldenburg,"I seek introduction to English natural philosophers.",1670
+23,1671-06-18,Oldenburg,Leibniz,"You are welcome to correspond with our members.",1671
+24,1672-12-01,Newton,Hooke,"On the nature of light: a reply to criticisms.",1672
+25,1673-04-22,Hooke,Newton,"I maintain that light is a wave phenomenon.",1673
+26,1674-09-15,Leibniz,Huygens,"On your work with the pendulum and curves.",1674
+27,1675-01-30,Huygens,Leibniz,"The involute of the cycloid is itself a cycloid.",1675
+28,1676-06-13,Newton,Leibniz,"The binomial theorem and infinite series.",1676
+29,1676-08-27,Leibniz,Newton,"I have my own methods for these calculations.",1676
+30,1677-11-04,Leibniz,Huygens,"My calculus notation may prove useful.",1677
+31,1678-03-19,Huygens,Leibniz,"Your notation is clear and promising.",1678
+32,1679-07-08,Hooke,Newton,"On planetary motion and the inverse square law.",1679
+33,1680-10-25,Newton,Hooke,"I had considered these problems years ago.",1680
+34,1681-02-14,Newton,Flamsteed,"I require your astronomical observations.",1681
+35,1682-05-30,Flamsteed,Newton,"The comet observations are enclosed.",1682
+36,1683-09-17,Halley,Newton,"What curve would a planet describe?",1683
+37,1684-01-11,Newton,Halley,"An ellipse. I calculated it some time ago.",1684
+38,1685-04-06,Halley,Newton,"You must publish this. I will fund the printing.",1685
+39,1686-08-20,Newton,Halley,"The Principia manuscript is nearly complete.",1686
+40,1687-07-05,Halley,Newton,"The Principia is published. The world is changed.",1687
+41,1690-11-12,Huygens,Leibniz,"My Treatise on Light is published at last.",1690
+42,1693-03-28,Newton,Locke,"I am recovering from a period of great distress.",1693
+43,1695-06-09,Leibniz,Johann Bernoulli,"On the brachistochrone problem.",1695
+44,1696-12-21,Johann Bernoulli,Leibniz,"The challenge is issued to the mathematicians of Europe.",1696
+45,1697-01-30,Newton,Montague,"I solved the brachistochrone in an evening.",1697
+46,1699-08-15,Leibniz,Johann Bernoulli,"Newton's priority claims grow louder.",1699
+47,1700-02-04,Newton,Flamsteed,"I insist on the publication of your catalogue.",1700
+48,1704-10-18,Newton,Halley,"The Opticks is published with the fluxions appendix.",1704
+49,1710-05-22,Leibniz,Johann Bernoulli,"The Royal Society's committee is not impartial.",1710
+50,1712-09-14,Newton,Bentley,"On the argument from design and celestial mechanics.",1712

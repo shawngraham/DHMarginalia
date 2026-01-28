@@ -1,0 +1,29 @@
+{
+  "name": "dhmarginalia",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "arquero": "^5.4.1",
+    "d3-force": "^3.0.0",
+    "d3-scale": "^4.0.2",
+    "d3-selection": "^3.0.0",
+    "graphology": "^0.25.4",
+    "graphology-metrics": "^2.3.0",
+    "js-yaml": "^4.1.0",
+    "marked": "^15.0.0",
+    "papaparse": "^5.5.2",
+    "scrollama": "^3.2.0"
+  },
+  "devDependencies": {
+    "vite": "^7.2.4",
+    "vitest": "^3.0.0"
+  }
+}
