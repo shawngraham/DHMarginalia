@@ -1,3 +1,4 @@
+import './themes/variables.css';
 import { loadConfig } from './engine/configLoader.js';
 import { loadCSV } from './engine/dataLoader.js';
 import { applyTheme } from './themes/themeProvider.js';
