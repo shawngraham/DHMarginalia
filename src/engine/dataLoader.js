@@ -5,7 +5,11 @@ import * as aq from 'arquero';
  * Loads a CSV file and returns an Arquero table.
  */
 export async function loadCSV(path) {
-  const response = await fetch(path);
+  // Resolve relative paths against the Vite base URL (e.g. /DHMarginalia/)
+  const resolvedPath = path.startsWith('http') || path.startsWith('/')
+    ? path
+    : import.meta.env.BASE_URL + path;
+  const response = await fetch(resolvedPath);
   if (!response.ok) {
     throw new Error(`Failed to load CSV: ${path} — ${response.statusText}`);
   }
